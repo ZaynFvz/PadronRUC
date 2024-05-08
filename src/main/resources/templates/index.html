@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cargar Archivo .zip</title>
+</head>
+<body>
+    <h2>Cargar Archivo .zip desde URL</h2>
+    <form action="/padronruc/cargar" method="post">
+        <input type="url" name="url" placeholder="URL del archivo .zip">
+        <button type="submit">Cargar Archivo</button>
+    </form>
+    <br>
+    <h2>Buscar Datos</h2>
+    <form action="/padronruc/buscar" method="get">
+        <input type="text" name="query" placeholder="Buscar por RUC">
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>
